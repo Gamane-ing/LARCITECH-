@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Publicité de LARCITECH</title>
+
+  <style>
+
+    /* Style global */
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+    }
+
+
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      line-height: 1.6;
+
+      color: #333;
+
+    }
+
+
+
+    header {
+
+      background: #0078D7;
+
+      color: white;
+
+      padding: 20px 0;
+
+      text-align: center;
+
+    }
+
+
+
+    header h1 {
+
+      font-size: 2.5rem;
+
+    }
+
+
+
+    header p {
+
+      font-size: 1.2rem;
+
+    }
+
+
+
+    nav {
+
+      display: flex;
+
+      justify-content: center;
+
+      background: #005bb5;
+
+      padding: 10px 0;
+
+    }
+
+
+
+    nav a {
+
+      color: white;
+
+      text-decoration: none;
+
+      margin: 0 15px;
+
+      font-weight: bold;
+
+    }
+
+
+
+    nav a:hover {
+
+      text-decoration: underline;
+
+    }
+
+
+
+    section {
+
+      padding: 20px;
+
+      max-width: 1000px;
+
+      margin: 20px auto;
+
+    }
+
+
+
+    .hero {
+
+      text-align: center;
+
+      background: #f4f4f4;
+
+      padding: 50px 20px;
+
+    }
+
+
+
+    .hero h2 {
+
+      font-size: 2rem;
+
+      margin-bottom: 20px;
+
+    }
+
+
+
+    .hero p {
+
+      font-size: 1.2rem;
+
+    }
+
+
+
+    .services {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 20px;
+
+      justify-content: center;
+
+    }
+
+
+
+    .service {
+
+      background: #f9f9f9;
+
+      border: 1px solid #ddd;
+
+      padding: 20px;
+
+      width: 300px;
+
+      border-radius: 10px;
+
+      text-align: center;
+
+    }
+
+
+
+    .service h3 {
+
+      margin-bottom: 15px;
+
+      font-size: 1.5rem;
+
+      color: #0078D7;
+
+    }
+
+
+
+    .service p {
+
+      font-size: 1rem;
+
+    }
+
+
+
+    footer {
+
+      background: #333;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 10px 0;
+
+      margin-top: 20px;
+
+    }
+
+
+
+    footer p {
+
+      font-size: 0.9rem;
+
+    }
+
+
+
+    .contact-form {
+
+      background: #f4f4f4;
+
+      padding: 20px;
+
+      border-radius: 10px;
+
+    }
+
+
+
+    .contact-form label {
+
+      display: block;
+
+      margin-bottom: 5px;
+
+      font-weight: bold;
+
+    }
+
+
+
+    .contact-form input,
+
+    .contact-form textarea {
+
+      width: 100%;
+
+      padding: 10px;
+
+      margin-bottom: 10px;
+
+      border: 1px solid #ccc;
+
+      border-radius: 5px;
+
+    }
+
+
+
+    .contact-form button {
+
+      background: #0078D7;
+
+      color: white;
+
+      border: none;
+
+      padding: 10px 20px;
+
+      cursor: pointer;
+
+      border-radius: 5px;
+
+      font-size: 1rem;
+
+    }
+
+
+
+    .contact-form button:hover {
+
+      background: #005bb5;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- En-tête -->
+
+  <header>
+
+    <h1>LARCITECH.COM</h1>
+
+    <p>DANS CETTE SITE WEB ONT VOUS AIDE COMMENT CRÉER VOTRE SITE.</p>
+
+  </header>
+
+
+
+  <!-- Navigation -->
+
+  <nav>
+
+    <a href="#about">À propos</a>
+
+    <a href="#services">Services</a>
+
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+
+
+  <!-- Section Hero -->
+
+  <section class="hero" id="about">
+
+    <h2>Bienvenue à LARCITECH  une Entreprise virtuelle qui aide les personnes dans le domainede programmation en informatiques</h2>
+
+    <p>NOs partenaires.</p>
+
+  </section>
+
+
+
+  <!-- Section Services -->
+
+  <section id="services">
+
+    <h2>Nos Services</h2>
+
+    <div class="services">
+
+      <div class="service">
+
+        <h3>Service 1</h3>
+
+        <p>Description de votre premier service. Offrez la meilleure qualité.</p>
+
+      </div>
+
+      <div class="service">
+
+        <h3>Service 2</h3>
+
+        <p>Description de votre deuxième service. Répondez aux besoins de vos clients.</p>
+
+      </div>
+
+      <div class="service">
+
+        <h3>Service 3</h3>
+
+        <p>Description de votre troisième service. Soyez exceptionnel dans ce que vous faites.</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- Section Contact -->
+
+  <section id="contact">
+
+    <h2>Contactez-nous</h2>
+
+    <form class="contact-form" id="contactForm">
+
+      <label for="name">Nom</label>
+
+      <input type="text" id="name" name="name" required>
+
+
+
+      <label for="email">Email</label>
+
+      <input type="email" id="email" name="email" required>
+
+
+
+      <label for="message">Message</label>
+
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+
+
+      <button type="submit">Envoyer</button>
+
+    </form>
+
+  </section>
+
+
+
+  <!-- Pied de page -->
+
+  <footer>
+
+    <p>&copy; @gamaneramadantassi6035@gmail.com</p>
+
+  </footer>
+
+
+
+  <!-- JavaScript -->
+
+  <script>
+
+    // JavaScript pour gérer le formulaire de contact
+
+    const contactForm = document.getElementById('contactForm');
+
+
+
+    contactForm.addEventListener('submit', (event) => {
+
+      event.preventDefault();
+
+
+
+      const name = document.getElementById('name').value;
+
+      const email = document.getElementById('email').value;
+
+      const message = document.getElementById('message').value;
+
+
+
+      if (name && email && message) {
+
+        // Afficher un message de succès
+
+        alert(`Merci, ${name}! Votre message a bien été envoyé.`);
+
+        // Réinitialiser le formulaire
+
+        contactForm.reset();
+
+      } else {
+
+        // Afficher un message d'erreur
+
+        alert('Veuillez remplir tous les champs avant de soumettre le formulaire.');
+
+      }
+
+    });
+
+  </script>
+
+</body>
+
+</html>
